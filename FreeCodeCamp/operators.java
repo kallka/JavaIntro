@@ -33,15 +33,24 @@ class Operators {
         System.out.println(number3);
         number3 %= 5;
         System.out.println(number3);
-        number3 += 5;
 
         // relation operators
+        number3 += 5;
         System.out.println(number3 == 5);
         System.out.println(number3 != 5);
         System.out.println(number3 > 1);
         System.out.println(number3 < 10);
         System.out.println(number3 >= 5);
         System.out.println(number3 <= 5);
+
+        // and | or operators
+        boolean isMember = true;
+        boolean hasID = false;
+
+        System.out.println(number3 == 5 && isMember);
+        System.out.println(isMember && hasID);
+        System.out.println(isMember || hasID);
+        System.out.println(!hasID);
 
         // bitwise operators
     }
