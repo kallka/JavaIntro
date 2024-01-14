@@ -1,3 +1,4 @@
+package FreeCodeCamp;
 // primitive data types
 
 class Variables {

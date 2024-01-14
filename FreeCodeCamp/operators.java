@@ -23,6 +23,25 @@ class Operators {
 
         // modulus (remainder)
         System.out.println(number1 % number2); // 0
+        number3 += 7;
+        System.out.println(number3);
+        number3 -= 7;
+        System.out.println(number3);
+        number3 *= 5;
+        System.out.println(number3);
+        number3 /= 5;
+        System.out.println(number3);
+        number3 %= 5;
+        System.out.println(number3);
+        number3 += 5;
+
+        // relation operators
+        System.out.println(number3 == 5);
+        System.out.println(number3 != 5);
+        System.out.println(number3 > 1);
+        System.out.println(number3 < 10);
+        System.out.println(number3 >= 5);
+        System.out.println(number3 <= 5);
 
         // bitwise operators
     }
