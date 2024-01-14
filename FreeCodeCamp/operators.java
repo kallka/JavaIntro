@@ -50,7 +50,18 @@ class Operators {
         System.out.println(number3 == 5 && isMember);
         System.out.println(isMember && hasID);
         System.out.println(isMember || hasID);
+        // not operator
         System.out.println(!hasID);
+
+        // increment/decrement
+        int score = 0;
+        System.out.println("Score: " + score);
+        score ++;
+        System.out.println("Score: " + score);
+        score --;
+        System.out.println("Score: " + score);
+        System.out.println("Score ++: " + score++);
+        System.out.println("Score: " + score);
 
         // bitwise operators
     }
